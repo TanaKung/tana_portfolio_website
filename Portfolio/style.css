@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #2c2b2b;
+  color: #e1ddc8;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1e1e24;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 10px 15px;
+  color: #e1ddc8;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #e1ddc8; /* Border to create box */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+.navbar a:hover {
+  background-color: #d1a084; /* Highlight color */
+  color: #000000 !important; /* Ensure text turns black on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Section Styles */
+.section {
+  padding: 700px 60px; /* General padding for all sections */
+  margin-top: 10px;
+
+}
+
+
+
+.landing {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  padding: 90px 30px; /* Consistent padding for Welcome section */
+  background-color: #3e3a39;
+  color: #e1ddc8;
+}
+
+.welcome-text {
+  margin-left: 20px; /* Adjust this for desired spacing */
+}
+
+.welcome-quote {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.welcome-image {
+  width: 500px; /* Adjust width as needed */
+  margin-right: 20px; /* Space between the image and text */
+  margin-top: -20px; /* Pull the image upwards */
+
+}
+
+
+.education-image
+{
+  display: block;
+  width: 400px; /* Adjust width as needed */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skill-image
+{
+  display: block;
+  width: 250px; /* Adjust width as needed */
+}
+
+.project-image
+{
+  display: block;
+  width: 350px; /* Adjust width as needed */
+}
+
+.contact-image
+{
+  display: block;
+  width: 400px; /* Adjust width as needed */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#about, #education, #skills, #contact {
+  padding-top: 80px; /* Minimal padding to bring titles to the top */
+  background-color: #4b4845;
+}
+
+/* Section Headings */
+.section-title {
+  color: #d1a084;
+  margin-top: 0;
+  font-size: 3em;
+}
+
+p {
+  font-size: 20px;
+}
